@@ -45,8 +45,7 @@ public class OreoData {
                 record = scanner.nextLine();
                 String[] result = record.split(delimiter);
                 
-                if(i != 0)
-                {
+                if(i != 0){
                     oreoLine = new OreoLine(result[0], result[1], result[2], result[3]);
                     oreoDataArray.add(oreoLine);
                 }
