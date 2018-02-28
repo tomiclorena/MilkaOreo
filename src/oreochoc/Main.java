@@ -28,15 +28,11 @@ public class Main {
         System.out.println("Broj krivo formatiranih tagova: " + counter);
         
         System.out.println("Press Enter key to continue...");
-        try
-        {
+        try{
             System.in.read();
         }  
         catch(IOException e){
             System.out.println("Error: " + e.getMessage());
         }
-        
-        
     }
-    
 }
